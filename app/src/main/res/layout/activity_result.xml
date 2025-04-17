@@ -16,7 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="400dp"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/ic_place_holder" />
+            app:srcCompat="@drawable/ic_place_holder"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/result_text"

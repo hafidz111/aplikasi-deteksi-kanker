@@ -22,7 +22,7 @@ class ResultActivity : AppCompatActivity() {
 
         val percentage = (confidenceScore * 100).toInt()
         val formattedPercentage = "$percentage%"
-        val bitmap = MediaStore.Images.Media.getBitmap(contentResolver, imageUri)
+        @Suppress("DEPRECATION") val bitmap = MediaStore.Images.Media.getBitmap(contentResolver, imageUri)
         binding.resultImage.setImageBitmap(bitmap)
 
         binding.resultText.text = getString(R.string.result, predictionResult, formattedPercentage)
