@@ -16,6 +16,12 @@
             android:name=".view.ResultActivity"
             android:exported="false" />
         <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:theme="@style/Base.Theme.AplikasiDeteksiKanker"
+            android:exported="false"
+            android:screenOrientation="fullSensor"
+            tools:ignore="DiscouragedApi" />
+        <activity
             android:name=".view.MainActivity"
             android:exported="true">
             <intent-filter>

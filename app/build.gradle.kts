@@ -54,4 +54,5 @@ dependencies {
     implementation(libs.tensorflow.lite.task.vision)
     implementation (libs.tensorflow.lite)
     implementation (libs.tensorflow.lite.support)
+    implementation (libs.ucrop)
 }
